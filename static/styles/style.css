@@ -1,0 +1,52 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* min-height: 100vh; */
+    background-attachment: fixed;
+    background-position: center center;
+    align-items: center;
+ 
+}
+
+form {
+    /* display: inline-block; */
+    margin: 1rem 5rem;
+}
+#respuesta{
+    width: 30rem;
+    height: 20rem;
+}
+
+#respuesta_text{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2em;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}
+
+.enviar{
+    margin-top: 5px;
+}
+
+img{
+    margin: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+    #respuesta{
+        width: 20rem;
+        height: 20rem;
+    }
+    
+}
