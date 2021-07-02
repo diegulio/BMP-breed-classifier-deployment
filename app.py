@@ -79,8 +79,7 @@ app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 # Pagina inicial
 @app.route('/')
 def home():    
-    if request.method=="GET":
-        return render_template("index.html",disp_img = 'none', disp_3r = 'none', disp_0r = 'none', disp_1r = 'none')
+    return render_template("index.html",disp_img = 'none', disp_3r = 'none', disp_0r = 'none', disp_1r = 'none')
 
 
 # Ruta donde se predice
