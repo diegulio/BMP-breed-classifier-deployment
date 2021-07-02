@@ -93,11 +93,7 @@ scikit-learn @ file:///Users/runner/miniforge3/conda-bld/scikit-learn_1619628646
 scipy @ file:///Users/runner/miniforge3/conda-bld/scipy_1624824918804/work
 Send2Trash @ file:///tmp/build/80754af9/send2trash_1607525499227/work
 six==1.16.0
-tensorboard @ file:///home/conda/feedstock_root/build_artifacts/tensorboard_1610699261066/work/tensorboard-2.4.1-py3-none-any.whl
-tensorboard-plugin-wit @ file:///home/conda/feedstock_root/build_artifacts/tensorboard-plugin-wit_1611075653546/work/tensorboard_plugin_wit-1.8.0-py3-none-any.whl
-tensorflow-addons-macos @ https://github.com/apple/tensorflow_macos/releases/download/v0.1alpha3/tensorflow_addons_macos-0.1a3-cp38-cp38-macosx_11_0_arm64.whl
-tensorflow-estimator @ file:///home/conda/feedstock_root/build_artifacts/tensorflow-estimator_1623773901369/work/wheel_dir/tensorflow_estimator-2.5.0-py2.py3-none-any.whl
-tensorflow-macos @ https://github.com/apple/tensorflow_macos/releases/download/v0.1alpha3/tensorflow_macos-0.1a3-cp38-cp38-macosx_11_0_arm64.whl
+tensorflow == 2.5.0
 termcolor==1.1.0
 terminado @ file:///Users/runner/miniforge3/conda-bld/terminado_1623365427724/work
 testpath @ file:///tmp/build/80754af9/testpath_1624638946665/work
