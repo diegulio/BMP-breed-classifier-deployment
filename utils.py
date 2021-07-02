@@ -1,7 +1,6 @@
 import json
 import numpy as np
 import os
-import pandas as pd
 from tensorflow.keras.models import load_model  
 from tensorflow.keras.preprocessing.image import load_img
 from tensorflow.keras.preprocessing.image import img_to_array
