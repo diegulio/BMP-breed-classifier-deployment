@@ -77,7 +77,7 @@ app = Flask(__name__, template_folder='template')
 app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
 
 # Pagina inicial
-@app.route('/')
+@app.route('/', methods = ['GET'])
 def home():    
     return render_template("index.html",disp_img = 'none', disp_3r = 'none', disp_0r = 'none', disp_1r = 'none')
 
